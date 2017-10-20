@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2017%2F10%2F20%2FWorld%2F</url>
+    <content type="text"><![CDATA[Hello World!]]></content>
+      <tags>
+        <tag>ZeroPoint</tag>
+      </tags>
+  </entry>
 </search>
