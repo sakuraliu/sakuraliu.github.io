@@ -310,7 +310,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/10/20/Python/" itemprop="url">Python</a></h1>
+                <a class="post-title-link" href="/2017/10/20/Python/" itemprop="url">Python扫雷日记（一）</a></h1>
         
 
         <div class="post-meta">
@@ -381,16 +381,35 @@
       
         
           
-          Python扫雷笔记（一）环境系统：macOS SierraXcode:version 9.0
-安装
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/10/20/Python/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
+            <a id="more"></a>
+<h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><p>系统：macOS Sierra<br>Xcode:version 9.0</p>
+<h2 id="安装和使用Python"><a href="#安装和使用Python" class="headerlink" title="安装和使用Python"></a>安装和使用Python</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>安装Python有多种方法，下面进行简单介绍。</p>
+<ol>
+<li>直接官网下载<br>双击直接解压安装，截止到10.16，最新的版本为3.6.2，附带IDLE编辑器。</li>
+<li>在终端使用homebrew命令安装<blockquote>
+<p> brew install Python<br>附：<br>Homebrew 是由Max Howell开发的软件包管理系统，使用非常方便，安装的方法是在终端输入<br>ruby -e “$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;a" target="_blank" rel="external">https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;a</a><br>常用的命令有：<br> brew install 软件名 %安装软件<br>brew search 软件名 % 搜索软件<br>brew uninstall 软件名 %卸载软件<br> brew update %更新所有软件</p>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>作为初学者，并没有太多实际性的建议，提供几种可以选择的Python使用方法。</p>
+</blockquote>
+</li>
+<li>PyCharm<br>PyCharm 是一个大牛专门为Python设计的Python编辑器,该编辑器有三个版本，Professional、Free Community 和Edu版，最令人惊喜的是，支持对于学生的该网站的全系列Jetbrain工具箱免费，使用邮箱激活一次，可以使用一年，激活的方式是使用自己的edu邮箱到官网的位置，输入自己 的edu邮箱和地区，Jetbrain会发两封邮件，一封点击后会再发一封，第二封点开会有该网站的注册链接，直接注册账号加上复杂密码就可以，在期限内，全系列都可以凭借账号和密码激活，强烈推荐。</li>
+<li>Xcode+Python<br>Xcode在Mac里是免费的编辑器，集成了多种语言，其中也自带了Python，但是自带的Python 是2.7.1版本，自08年版本迭代以来，Python3.x逐渐成为主流，因而对于初学者最好从Python3.x开始。对于Xcode+Python需要进行设置。</li>
+<li>Sublime Text +Python<br>Sublime是广受好评的一个文本编辑器，配色好看，轻量化，支持多种语言，跨多平台，也是个很优秀的选择。</li>
+<li>IDLE<br>直接在附带下载的编辑器内编辑。<h3 id="雷区"><a href="#雷区" class="headerlink" title="雷区"></a>雷区</h3></li>
+<li>Python版本<br>mac当下的系统自带的Python是2,7.1版本，而现在的Python3.x需要自行下载，下载后，会出现版本冲突的问题。<blockquote>
+<p>因为学习的需要，我下载了Python3.x版本，但是打开IDLE编辑器出现：<br> WARNING: The version of Tcl/Tk (8.5.9) in use may be unstable.<br>Visit <a href="http://www.python.org/download/mac/tcltk/" target="_blank" rel="external">http://www.python.org/download/mac/tcltk/</a> for current information.<br>Google后使用homebrew升级Tcl/Tk，但是升级的是系统自带的2.7.1的Tcl/Tk，导致依旧无法输入中文。</p>
+</blockquote>
+</li>
+<li>输入程序<br>安装后似乎就可以直接输入代码运行程序，但是，没错但是，就是不成。</li>
+</ol>
+<ul>
+<li>单行代码</li>
+<li>程序运行<br>Python自带的IDLE按回车键就运行，对于多行代码来说，这并不友好。Google的结果是先在文本编辑器内输入代码，再保存为”.py”结尾的文件，使用终端cd到该文件的目录下，用Python打开。<br>为了避免上面的麻烦，使用了PyCharm的集成功能，将程序在Pycharm中编程实现。<h3 id="The-Zen-of-Python"><a href="#The-Zen-of-Python" class="headerlink" title="The Zen of Python"></a>The Zen of Python</h3>在 Python中输入<blockquote>
+<p>import this%就会出现关于Python编程思想的句子，可以从中体会Python的美感。</p>
+</blockquote>
+</li>
+</ul>
+
+          
         
       
     </div>
@@ -500,15 +519,8 @@
       
         
           
-          Hello World!
+            <h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World!"></a>Hello World!</h1>
           
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/10/20/World/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
         
       
     </div>
