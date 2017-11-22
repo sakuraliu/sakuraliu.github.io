@@ -1,39 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[求生之路]]></title>
-    <url>%2F2017%2F11%2F22%2F%E6%B1%82%E7%94%9F%E4%B9%8B%E8%B7%AF%2F</url>
-    <content type="text"><![CDATA[求生之路Principle 明确的目标 可行的计划 完整的回顾]]></content>
-      <categories>
-        <category>记录</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[每天经济学]]></title>
-    <url>%2F2017%2F10%2F24%2F%E6%AF%8F%E5%A4%A9%E7%BB%8F%E6%B5%8E%E5%AD%A6%2F</url>
-    <content type="text"><![CDATA[每天经济学（零）缘起每天一点点的进步都会带来巨大的改变，年纪渐长，愈发感觉到坚持和忍耐的重要，因而开辟&lt;每日经济学&gt;一栏，望诸君共勉。 健康健康是最重要也是最容易被忽视的资源，特将其放到最开始。 作息规律 按时吃饭，合理搭配 适量运动 节制物欲，科学用眼用脑 养成好的卫生习惯]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>成长</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Python扫雷日记（一）]]></title>
-    <url>%2F2017%2F10%2F20%2FPython%2F</url>
-    <content type="text"><![CDATA[环境 系 统：macOS Sierra Xcode: version 9.0安装和使用Python安装安装Python有多种方法，下面进行简单介绍。 直接官网下载双击直接解压安装，截止到10.16，最新的版本为3.6.2，附带IDLE编辑器。 在终端使用homebrew命令安装 brew install Python 附：Homebrew 是由Max Howell开发的软件包管理系统，使用非常方便，安装的方法是在终端输入: ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;a 常用的命令有： brew install 软件名 %安装软件brew search 软件名 % 搜索软件brew uninstall 软件名 %卸载软件 brew update %更新所有软件 使用作为初学者，并没有太多实际性的建议，提供几种可以选择的Python使用方法。 PyCharmPyCharm 是一个大牛专门为Python设计的Python编辑器,该编辑器有三个版本，Professional、Free Community 和Edu版，最令人惊喜的是，支持对于学生的该网站的全系列Jetbrain工具箱免费，使用邮箱激活一次，可以使用一年，激活的方式是使用自己的edu邮箱到官网的位置，输入自己 的edu邮箱和地区，Jetbrain会发两封邮件，一封点击后会再发一封，第二封点开会有该网站的注册链接，直接注册账号加上复杂密码就可以，在期限内，全系列都可以凭借账号和密码激活，强烈推荐。 Xcode+PythonXcode在Mac里是免费的编辑器，集成了多种语言，其中也自带了Python，但是自带的Python 是2.7.1版本，自08年版本迭代以来，Python3.x逐渐成为主流，因而对于初学者最好从Python3.x开始。对于Xcode+Python需要进行设置。 Sublime Text +PythonSublime是广受好评的一个文本编辑器，配色好看，轻量化，支持多种语言，跨多平台，也是个很优秀的选择。 IDLE直接在附带下载的编辑器内编辑。雷区Python版本mac当下的系统自带的Python是2,7.1版本，而现在的Python3.x需要自行下载，下载后，会出现版本冲突的问题。因为学习的需要，我下载了Python3.x版本，但是打开IDLE编辑器出现： WARNING: The version of Tcl/Tk (8.5.9) in use may be unstable.Visit http://www.python.org/download/mac/tcltk/ for current information. Google后使用homebrew升级Tcl/Tk，但是升级的是系统自带的2.7.1的Tcl/Tk，导致依旧无法输入中文。 输入程序 单行代码 程序运行Python自带的IDLE按回车键就运行，对于多行代码来说，这并不友好。Google的结果是先在文本编辑器内输入代码，再保存为”.py”结尾的文件，使用终端cd到该文件的目录下，用Python打开。为了避免上面的麻烦，使用了PyCharm的集成功能，将程序在Pycharm中编程实现。The Zen of Python在 Python中输入 import this]]></content>
-      <categories>
-        <category>Note</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2017%2F10%2F20%2FWorld%2F</url>
     <content type="text"><![CDATA[Hello World!]]></content>
