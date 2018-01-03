@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Forge安装指南]]></title>
-    <url>%2F2017%2F12%2F15%2FForge%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97%2F</url>
-    <content type="text"><![CDATA[Forge安装指南Forge 是什么Forge 是诸多万智牌相关软件中的一款，属于非官方个人性质的软体。 优点：1. 全卡牌，方便构筑 2.模式多样 3.电脑Ai 4.PC跟Mac全平台 缺点1.只限于单机对战 2.个人性质的软件，卡牌来源于数据库 3.电脑的ai操作局限性很大,乐趣有限 安装1.官网下载对应平台的软件（以Mac为例） 2.下载图片（虽然软件内有自带的图源，但是不够清晰，建议自行下载图源） 3.打开路径 /users/用户名/Library/Caches/Forge，将图片粘贴到caches里 4.启动Forge，图片已经导入，可以开始游戏]]></content>
+    <title><![CDATA[2018]]></title>
+    <url>%2F2018%2F01%2F03%2F2018%2F</url>
+    <content type="text"><![CDATA[2018年度目标 完成会计、金融学、计算机科学三个专项的MOOC课程内容； 完成具体的三项任务（考研、考证、健身）； 培养计划和记录的习惯； 词汇量20000+。具体量化指标： 词汇量4600拓展到20000+； 读至少30本专业书籍和至少50本经典文学作品； 每天读一篇英文文献； 每周一个学术专题。心愿有价值、有意义的生存下去。]]></content>
       <categories>
-        <category>Notes</category>
+        <category>记录</category>
       </categories>
       <tags>
-        <tag>教程；Forge；万智牌</tag>
+        <tag>里程碑</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <url>%2F2017%2F12%2F15%2FWorld%2F</url>
-    <content type="text"><![CDATA[Hello World!等價交換，我把我的一半人生給你，所以請把你人生的一半給我吧。]]></content>
+    <url>%2F2018%2F01%2F01%2FWorld%2F</url>
+    <content type="text"><![CDATA[Hello World!]]></content>
       <categories>
         <category>Point</category>
       </categories>
